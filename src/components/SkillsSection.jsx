@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML",category: "frontend/backend", img: "public/skills/html1.png" },
+  { name: "HTML",category: "frontend/backend", img: "@/public/skills/html1.png" },
   { name: "JavaScript", category: "frontend/backend", img: "public/skills/js1.png" },
   { name: "SQL", category: "frontend/backend", img: "public/skills/sql1.png" },
   { name: "Python", category: "programming languages", img: "public/skills/python1.png" },
