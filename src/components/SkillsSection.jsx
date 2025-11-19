@@ -16,7 +16,7 @@ const skills = [
   { name: "Git/GitHub", category: "tools", img: "public/skills/git1.png" },
   { name: "Docker", category: "tools", img: "public/skills/docker1.png" },
   { name: "VS Code", category: "tools", img:"public/skills/vscode1.png" },
-  { name: "Airtable", category: "tools", img: "public\skills\airtable.webp"},
+  { name: "Airtable", category: "tools", img: "public/skills/airtable.webp"},
   { name: "Power BI", category: "tools", img: "public/skills/power-bi-icon1.png"},
 ];
 
@@ -59,7 +59,7 @@ export const SkillsSection = () => {
       className="bg-card p-6 rounded-lg shadow-xs card-hover flex flex-col items-center justify-center gap-4"
     >
       {/* 1. Skill Icon (Large and centered) */}
-      <div className="text-5xl text-primary">
+      <div>
         {/* We assume skill.icon is a component, e.g., SiReact */}
         <img
                   src={skill.img}
