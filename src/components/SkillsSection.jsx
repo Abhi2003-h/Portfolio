@@ -16,7 +16,7 @@ const skills = [
   { name: "Git/GitHub", category: "tools", img: "public/skills/git1.png" },
   { name: "Docker", category: "tools", img: "public/skills/docker1.png" },
   { name: "VS Code", category: "tools", img:"public/skills/vscode1.png" },
-  { name: "Airtable", category: "tools", img: "public/skills/airtable1.png"},
+  { name: "Airtable", category: "tools", img: "public\skills\airtable.webp"},
   { name: "Power BI", category: "tools", img: "public/skills/power-bi-icon1.png"},
 ];
 
