@@ -3,16 +3,16 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML",category: "frontend", img: "public/skills/htmll.webp" },
-  { name: "JavaScript", category: "frontend", img: "public/skills/js.webp" },
-  { name: "SQL", category: "frontend", img: "public/skills/sql.webp" },
-  { name: "Python", category: "frontend", img: "public/skills/python.webp" },
-  { name: "C programming", category: "frontend", img: "public/skills/C.webp" },
-  { name: "React", category: "frontend", img: "public/skills/react.webp" },
-  { name: "MongoDB", category: "backend", img: "public/skills/mongodb.webp" },
-  { name: "Django", category: "backend", img: "public/skills/django.webp" },
-  { name: "Node.js", category: "backend", img: "public/skills/nodejs.webp" },
-  { name: "Frappe", category: "backend", img: "public/skills/frappe.webp" },
+  { name: "HTML",category: "frontend/backend", img: "public/skills/htmll.webp" },
+  { name: "JavaScript", category: "frontend/backend", img: "public/skills/js.webp" },
+  { name: "SQL", category: "frontend/backend", img: "public/skills/sql.webp" },
+  { name: "Python", category: "programming languages", img: "public/skills/python.webp" },
+  { name: "C programming", category: "programming languages", img: "public/skills/C.webp" },
+  { name: "React", category: "frameworks", img: "public/skills/react.webp" },
+  { name: "MongoDB", category: "frontend/backend", img: "public/skills/mongodb.webp" },
+  { name: "Django", category: "frameworks", img: "public/skills/django.webp" },
+  { name: "Node.js", category: "frontend/backend", img: "public/skills/nodejs.webp" },
+  { name: "Frappe", category: "frameworks", img: "public/skills/frappe.webp" },
   { name: "Git/GitHub", category: "tools", img: "public/skills/git.webp" },
   { name: "Docker", category: "tools", img: "public/skills/docker.webp" },
   { name: "VS Code", category: "tools", img:"public/skills/vscode.webp" },
@@ -20,7 +20,7 @@ const skills = [
   { name: "Power BI", category: "tools", img: "public/skills/power-bi-icon.webp"},
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "programming languages", "frontend/backend", "frameworks", "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
