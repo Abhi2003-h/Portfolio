@@ -3,21 +3,21 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML",category: "frontend/backend", img: "@/assets/skills/html1.png" },
-  { name: "JavaScript", category: "frontend/backend", img: "@/assets/skills/js1.png" },
-  { name: "SQL", category: "frontend/backend", img: "@/assets/skills/sql1.png" },
-  { name: "Python", category: "programming languages", img: "@/assets/skills/python1.png" },
-  { name: "C programming", category: "programming languages", img: "@/assets/skills/c1.png" },
-  { name: "React", category: "frameworks", img: "@/assets/skills/react1.png" },
-  { name: "MongoDB", category: "frontend/backend", img: "@/assets/skills/mongodb1.png" },
-  { name: "Django", category: "frameworks", img: "@/assets/skills/django1.png" },
-  { name: "Node.js", category: "frontend/backend", img: "@/assets/skills/nodejs1.png" },
-  { name: "Frappe", category: "frameworks", img: "@/assets/skills/frappe1.png" },
-  { name: "Git/GitHub", category: "tools", img: "@/assets/skills/git1.png" },
-  { name: "Docker", category: "tools", img: "@/assets/skills/docker1.png" },
-  { name: "VS Code", category: "tools", img:"@/assets/skills/vscode1.png" },
-  { name: "Airtable", category: "tools", img: "@/assets/skills/airtable.webp"},
-  { name: "Power BI", category: "tools", img: "@/assets/skills/power-bi-icon1.png"},
+  { name: "HTML",category: "frontend/backend", img: "/skills/html1.png" },
+  { name: "JavaScript", category: "frontend/backend", img: "/skills/js1.png" },
+  { name: "SQL", category: "frontend/backend", img: "/skills/sql1.png" },
+  { name: "Python", category: "programming languages", img: "/skills/python1.png" },
+  { name: "C programming", category: "programming languages", img: "/skills/c1.png" },
+  { name: "React", category: "frameworks", img: "/skills/react1.png" },
+  { name: "MongoDB", category: "frontend/backend", img: "/skills/mongodb1.png" },
+  { name: "Django", category: "frameworks", img: "/skills/django1.png" },
+  { name: "Node.js", category: "frontend/backend", img: "/skills/nodejs1.png" },
+  { name: "Frappe", category: "frameworks", img: "/skills/frappe1.png" },
+  { name: "Git/GitHub", category: "tools", img: "/skills/git1.png" },
+  { name: "Docker", category: "tools", img: "/skills/docker1.png" },
+  { name: "VS Code", category: "tools", img:"/skills/vscode1.png" },
+  { name: "Airtable", category: "tools", img: "/skills/airtable.webp"},
+  { name: "Power BI", category: "tools", img: "/skills/power-bi-icon1.png"},
 ];
 
 const categories = ["all", "programming languages", "frontend/backend", "frameworks", "tools"];
