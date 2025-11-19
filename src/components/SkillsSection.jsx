@@ -3,21 +3,21 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML",category: "frontend/backend", img: "/skills/html1.png" },
-  { name: "JavaScript", category: "frontend/backend", img: "/skills/js1.png" },
-  { name: "SQL", category: "frontend/backend", img: "/skills/sql1.png" },
-  { name: "Python", category: "programming languages", img: "/skills/python1.png" },
-  { name: "C programming", category: "programming languages", img: "/skills/c1.png" },
-  { name: "React", category: "frameworks", img: "/skills/react1.png" },
-  { name: "MongoDB", category: "frontend/backend", img: "/skills/mongodb1.png" },
-  { name: "Django", category: "frameworks", img: "/skills/django1.png" },
-  { name: "Node.js", category: "frontend/backend", img: "/skills/nodejs1.png" },
-  { name: "Frappe", category: "frameworks", img: "/skills/frappe1.png" },
-  { name: "Git/GitHub", category: "tools", img: "/skills/git1.png" },
-  { name: "Docker", category: "tools", img: "/skills/docker1.png" },
-  { name: "VS Code", category: "tools", img:"/skills/vscode1.png" },
-  { name: "Airtable", category: "tools", img: "/skills/airtable.webp"},
-  { name: "Power BI", category: "tools", img: "/skills/power-bi-icon1.png"},
+  { name: "HTML",category: "frontend/backend", image: "/skill/html1.png" },
+  { name: "JavaScript", category: "frontend/backend", image: "/skill/js1.png" },
+  { name: "SQL", category: "frontend/backend", image: "/skill/sql1.png" },
+  { name: "Python", category: "programming languages", image: "/skill/python1.png" },
+  { name: "C programming", category: "programming languages", image: "/skill/c1.png" },
+  { name: "React", category: "frameworks", image: "/skill/react1.png" },
+  { name: "MongoDB", category: "frontend/backend", image: "/skill/mongodb1.png" },
+  { name: "Django", category: "frameworks", image: "/skill/django1.png" },
+  { name: "Node.js", category: "frontend/backend", image: "/skill/nodejs1.png" },
+  { name: "Frappe", category: "frameworks", image: "/skill/frappe1.png" },
+  { name: "Git/GitHub", category: "tools", image: "/skill/git1.png" },
+  { name: "Docker", category: "tools", image: "/skill/docker1.png" },
+  { name: "VS Code", category: "tools", image:"/skill/vscode1.png" },
+  { name: "Airtable", category: "tools", image: "/skill/airtable.webp"},
+  { name: "Power BI", category: "tools", image: "/skill/power-bi-icon1.png"},
 ];
 
 const categories = ["all", "programming languages", "frontend/backend", "frameworks", "tools"];
@@ -62,7 +62,7 @@ export const SkillsSection = () => {
       <div>
         {/* We assume skill.icon is a component, e.g., SiReact */}
         <img
-                  src={skill.img}
+                  src={skill.image}
                   alt={skill.name}
         />
       </div>
